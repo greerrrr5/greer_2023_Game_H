@@ -44,6 +44,16 @@
 ..\obj\queue.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\math.h
 ..\obj\queue.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdarg.h
 ..\obj\queue.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\queue.o: ..\TraceRecorder\include\trcRecorder.h
+..\obj\queue.o: ..\TraceRecorder\config\trcConfig.h
+..\obj\queue.o: ..\TraceRecorder\include\trcPortDefines.h
+..\obj\queue.o: ..\TraceRecorder\config\trcStreamingConfig.h
+..\obj\queue.o: ..\TraceRecorder\include\trcHardwarePort.h
+..\obj\queue.o: ..\TraceRecorder\streamports\Jlink_RTT\include\trcStreamingPort.h
+..\obj\queue.o: ..\TraceRecorder\streamports\Jlink_RTT\include\SEGGER_RTT_Conf.h
+..\obj\queue.o: ..\TraceRecorder\streamports\Jlink_RTT\include\SEGGER_RTT.h
+..\obj\queue.o: ..\TraceRecorder\include\trcKernelPort.h
+..\obj\queue.o: ..\FreeRTOS\include\FreeRTOS.h
 ..\obj\queue.o: ..\FreeRTOS\include\projdefs.h
 ..\obj\queue.o: ..\FreeRTOS\include\portable.h
 ..\obj\queue.o: ..\FreeRTOS\include\deprecated_definitions.h

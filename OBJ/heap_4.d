@@ -43,6 +43,16 @@
 ..\obj\heap_4.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\math.h
 ..\obj\heap_4.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdarg.h
 ..\obj\heap_4.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\heap_4.o: ..\TraceRecorder\include\trcRecorder.h
+..\obj\heap_4.o: ..\TraceRecorder\config\trcConfig.h
+..\obj\heap_4.o: ..\TraceRecorder\include\trcPortDefines.h
+..\obj\heap_4.o: ..\TraceRecorder\config\trcStreamingConfig.h
+..\obj\heap_4.o: ..\TraceRecorder\include\trcHardwarePort.h
+..\obj\heap_4.o: ..\TraceRecorder\streamports\Jlink_RTT\include\trcStreamingPort.h
+..\obj\heap_4.o: ..\TraceRecorder\streamports\Jlink_RTT\include\SEGGER_RTT_Conf.h
+..\obj\heap_4.o: ..\TraceRecorder\streamports\Jlink_RTT\include\SEGGER_RTT.h
+..\obj\heap_4.o: ..\TraceRecorder\include\trcKernelPort.h
+..\obj\heap_4.o: ..\FreeRTOS\include\FreeRTOS.h
 ..\obj\heap_4.o: ..\FreeRTOS\include\projdefs.h
 ..\obj\heap_4.o: ..\FreeRTOS\include\portable.h
 ..\obj\heap_4.o: ..\FreeRTOS\include\deprecated_definitions.h

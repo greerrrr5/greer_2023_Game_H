@@ -43,6 +43,16 @@
 ..\obj\croutine.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdarg.h
 ..\obj\croutine.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\croutine.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\croutine.o: ..\TraceRecorder\include\trcRecorder.h
+..\obj\croutine.o: ..\TraceRecorder\config\trcConfig.h
+..\obj\croutine.o: ..\TraceRecorder\include\trcPortDefines.h
+..\obj\croutine.o: ..\TraceRecorder\config\trcStreamingConfig.h
+..\obj\croutine.o: ..\TraceRecorder\include\trcHardwarePort.h
+..\obj\croutine.o: ..\TraceRecorder\streamports\Jlink_RTT\include\trcStreamingPort.h
+..\obj\croutine.o: ..\TraceRecorder\streamports\Jlink_RTT\include\SEGGER_RTT_Conf.h
+..\obj\croutine.o: ..\TraceRecorder\streamports\Jlink_RTT\include\SEGGER_RTT.h
+..\obj\croutine.o: ..\TraceRecorder\include\trcKernelPort.h
+..\obj\croutine.o: ..\FreeRTOS\include\FreeRTOS.h
 ..\obj\croutine.o: ..\FreeRTOS\include\projdefs.h
 ..\obj\croutine.o: ..\FreeRTOS\include\portable.h
 ..\obj\croutine.o: ..\FreeRTOS\include\deprecated_definitions.h

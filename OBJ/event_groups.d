@@ -43,6 +43,16 @@
 ..\obj\event_groups.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\math.h
 ..\obj\event_groups.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdarg.h
 ..\obj\event_groups.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\event_groups.o: ..\TraceRecorder\include\trcRecorder.h
+..\obj\event_groups.o: ..\TraceRecorder\config\trcConfig.h
+..\obj\event_groups.o: ..\TraceRecorder\include\trcPortDefines.h
+..\obj\event_groups.o: ..\TraceRecorder\config\trcStreamingConfig.h
+..\obj\event_groups.o: ..\TraceRecorder\include\trcHardwarePort.h
+..\obj\event_groups.o: ..\TraceRecorder\streamports\Jlink_RTT\include\trcStreamingPort.h
+..\obj\event_groups.o: ..\TraceRecorder\streamports\Jlink_RTT\include\SEGGER_RTT_Conf.h
+..\obj\event_groups.o: ..\TraceRecorder\streamports\Jlink_RTT\include\SEGGER_RTT.h
+..\obj\event_groups.o: ..\TraceRecorder\include\trcKernelPort.h
+..\obj\event_groups.o: ..\FreeRTOS\include\FreeRTOS.h
 ..\obj\event_groups.o: ..\FreeRTOS\include\projdefs.h
 ..\obj\event_groups.o: ..\FreeRTOS\include\portable.h
 ..\obj\event_groups.o: ..\FreeRTOS\include\deprecated_definitions.h

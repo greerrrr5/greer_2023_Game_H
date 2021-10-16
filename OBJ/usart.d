@@ -43,6 +43,16 @@
 ..\obj\usart.o: ..\FreeRTOS\include\FreeRTOS.h
 ..\obj\usart.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\usart.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+..\obj\usart.o: ..\TraceRecorder\include\trcRecorder.h
+..\obj\usart.o: ..\TraceRecorder\config\trcConfig.h
+..\obj\usart.o: ..\TraceRecorder\include\trcPortDefines.h
+..\obj\usart.o: ..\TraceRecorder\config\trcStreamingConfig.h
+..\obj\usart.o: ..\TraceRecorder\include\trcHardwarePort.h
+..\obj\usart.o: ..\TraceRecorder\streamports\Jlink_RTT\include\trcStreamingPort.h
+..\obj\usart.o: ..\TraceRecorder\streamports\Jlink_RTT\include\SEGGER_RTT_Conf.h
+..\obj\usart.o: ..\TraceRecorder\streamports\Jlink_RTT\include\SEGGER_RTT.h
+..\obj\usart.o: ..\TraceRecorder\include\trcKernelPort.h
+..\obj\usart.o: ..\FreeRTOS\include\FreeRTOS.h
 ..\obj\usart.o: ..\FreeRTOS\include\projdefs.h
 ..\obj\usart.o: ..\FreeRTOS\include\portable.h
 ..\obj\usart.o: ..\FreeRTOS\include\deprecated_definitions.h

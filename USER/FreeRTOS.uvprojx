@@ -324,7 +324,7 @@
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
             <uC99>1</uC99>
-            <uGnu>1</uGnu>
+            <uGnu>0</uGnu>
             <useXO>0</useXO>
             <v6Lang>1</v6Lang>
             <v6LangP>1</v6LangP>
@@ -337,7 +337,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER,ARM_MATH_CM4,__CC_ARM,ARM_MATH_M,DEBUG_INFO=02</Define>
               <Undefine></Undefine>
-              <IncludePath>..\FWLIB\inc;..\CORE;..\USER;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\HARDWARE;..\FreeRTOS\include;..\FreeRTOS\portable\RVDS\ARM_CM4F;..\DSP_LIB\Include;..\DSP_LIB;..\STemWin_Task</IncludePath>
+              <IncludePath>..\FWLIB\inc;..\CORE;..\USER;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\HARDWARE;..\FreeRTOS\include;..\FreeRTOS\portable\RVDS\ARM_CM4F;..\DSP_LIB\Include;..\DSP_LIB;..\STemWin_Task;..\TraceRecorder\config;..\TraceRecorder\include;..\TraceRecorder\streamports\Jlink_RTT\include</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -590,6 +590,31 @@
               <FileName>dso.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\STemWin_Task\dso.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>TraceRecorder</GroupName>
+          <Files>
+            <File>
+              <FileName>trcKernelPort.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\TraceRecorder\trcKernelPort.c</FilePath>
+            </File>
+            <File>
+              <FileName>trcStreamingRecorder.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\TraceRecorder\trcStreamingRecorder.c</FilePath>
+            </File>
+            <File>
+              <FileName>SEGGER_RTT.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\TraceRecorder\streamports\Jlink_RTT\SEGGER_RTT.c</FilePath>
+            </File>
+            <File>
+              <FileName>trcStreamingPort.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\TraceRecorder\streamports\Jlink_RTT\trcStreamingPort.c</FilePath>
             </File>
           </Files>
         </Group>

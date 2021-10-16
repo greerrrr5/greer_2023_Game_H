@@ -59,7 +59,8 @@ int main(void)
                 (UBaseType_t    )START_TASK_PRIO,       //任务优先级
                 (TaskHandle_t*  )&StartTask_Handler);   //任务句柄                  
 
-    xMutexCreate();      //初始化互斥信号量            
+    xMutexCreate();         //初始化互斥信号量   
+    vTraceEnable(TRC_INIT);                
     if(pdPASS == xReturn)
         vTaskStartScheduler(); 
     else

@@ -30,6 +30,10 @@
 "..\obj\heap_4.o"
 "..\DSP_LIB\arm_cortexM4lf_math.lib"
 "..\obj\dso.o"
+"..\obj\trckernelport.o"
+"..\obj\trcstreamingrecorder.o"
+"..\obj\segger_rtt.o"
+"..\obj\trcstreamingport.o"
 --strict --scatter "..\OBJ\LED.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

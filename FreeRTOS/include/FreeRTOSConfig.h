@@ -77,13 +77,12 @@
 #define configUSE_STATS_FORMATTING_FUNCTIONS	1                               //与宏configUSE_TRACE_FACILITY同时为1时会编译下面3个函数
                                                                                 //prvWriteNameToBuffer(),vTaskList(),
                                                                                 //vTaskGetRunTimeStats()
- extern volatile uint32_t CPU_RunTime;
+extern volatile uint32_t CPU_RunTime;
 
 #define portCONFIGURE_TIMER_FOR_RUN_TIME_STATS()     (CPU_RunTime = 0ul)
 #define portGET_RUN_TIME_COUNTER_VALUE()             CPU_RunTime 
                                                                      
                                                                                 
-   
 /* Co-routine definitions. */
 #define configUSE_CO_ROUTINES 		0               //为1时启用协程，启用协程以后必须添加文件croutine.c
 #define configMAX_CO_ROUTINE_PRIORITIES ( 2 )       //协程的有效优先级数目
@@ -137,6 +136,22 @@ header file. */
 standard names. */
 #define vPortSVCHandler SVC_Handler
 #define xPortPendSVHandler PendSV_Handler
+
+/* 前面全部省略了... */
+
+/* Trace源码头文件，前面说过，最新的3.1.0版本，Trace源码被统一，简化，使用者只需要包含trcRecorder.h 这一个文件即可！*/
+/** @addtogroup Integrates the Tracealyzer recorder with FreeRTOS.
+  * @{
+  */
+/* 以下为使用Percepio Tracealyzer需要的东西，不需要时将 configUSE_TRACE_FACILITY 定义为 0 ,使用时，将 configUSE_TRACE_FACILITY  定义为 1 即可 */
+#if ( configUSE_TRACE_FACILITY == 1 )
+#include "trcRecorder.h"
+#define INCLUDE_xTaskGetCurrentTaskHandle				1	// 启用一个可选函数（该函数被 Trace源码使用，默认该值为0 表示不用）。最新的 4.3.8，FreeRTOS 10.3.1 不再需要，直接删除即可
+#endif
+/**
+  * @}
+  */
+
 
 #endif /* FREERTOS_CONFIG_H */
 

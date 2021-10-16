@@ -44,6 +44,16 @@
 ..\obj\delay.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdarg.h
 ..\obj\delay.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\delay.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\delay.o: ..\TraceRecorder\include\trcRecorder.h
+..\obj\delay.o: ..\TraceRecorder\config\trcConfig.h
+..\obj\delay.o: ..\TraceRecorder\include\trcPortDefines.h
+..\obj\delay.o: ..\TraceRecorder\config\trcStreamingConfig.h
+..\obj\delay.o: ..\TraceRecorder\include\trcHardwarePort.h
+..\obj\delay.o: ..\TraceRecorder\streamports\Jlink_RTT\include\trcStreamingPort.h
+..\obj\delay.o: ..\TraceRecorder\streamports\Jlink_RTT\include\SEGGER_RTT_Conf.h
+..\obj\delay.o: ..\TraceRecorder\streamports\Jlink_RTT\include\SEGGER_RTT.h
+..\obj\delay.o: ..\TraceRecorder\include\trcKernelPort.h
+..\obj\delay.o: ..\FreeRTOS\include\FreeRTOS.h
 ..\obj\delay.o: ..\FreeRTOS\include\projdefs.h
 ..\obj\delay.o: ..\FreeRTOS\include\portable.h
 ..\obj\delay.o: ..\FreeRTOS\include\deprecated_definitions.h

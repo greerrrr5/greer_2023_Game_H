@@ -43,6 +43,16 @@
 ..\obj\list.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\math.h
 ..\obj\list.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdarg.h
 ..\obj\list.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\list.o: ..\TraceRecorder\include\trcRecorder.h
+..\obj\list.o: ..\TraceRecorder\config\trcConfig.h
+..\obj\list.o: ..\TraceRecorder\include\trcPortDefines.h
+..\obj\list.o: ..\TraceRecorder\config\trcStreamingConfig.h
+..\obj\list.o: ..\TraceRecorder\include\trcHardwarePort.h
+..\obj\list.o: ..\TraceRecorder\streamports\Jlink_RTT\include\trcStreamingPort.h
+..\obj\list.o: ..\TraceRecorder\streamports\Jlink_RTT\include\SEGGER_RTT_Conf.h
+..\obj\list.o: ..\TraceRecorder\streamports\Jlink_RTT\include\SEGGER_RTT.h
+..\obj\list.o: ..\TraceRecorder\include\trcKernelPort.h
+..\obj\list.o: ..\FreeRTOS\include\FreeRTOS.h
 ..\obj\list.o: ..\FreeRTOS\include\projdefs.h
 ..\obj\list.o: ..\FreeRTOS\include\portable.h
 ..\obj\list.o: ..\FreeRTOS\include\deprecated_definitions.h

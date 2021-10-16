@@ -43,6 +43,16 @@
 ..\obj\timers.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\math.h
 ..\obj\timers.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdarg.h
 ..\obj\timers.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\timers.o: ..\TraceRecorder\include\trcRecorder.h
+..\obj\timers.o: ..\TraceRecorder\config\trcConfig.h
+..\obj\timers.o: ..\TraceRecorder\include\trcPortDefines.h
+..\obj\timers.o: ..\TraceRecorder\config\trcStreamingConfig.h
+..\obj\timers.o: ..\TraceRecorder\include\trcHardwarePort.h
+..\obj\timers.o: ..\TraceRecorder\streamports\Jlink_RTT\include\trcStreamingPort.h
+..\obj\timers.o: ..\TraceRecorder\streamports\Jlink_RTT\include\SEGGER_RTT_Conf.h
+..\obj\timers.o: ..\TraceRecorder\streamports\Jlink_RTT\include\SEGGER_RTT.h
+..\obj\timers.o: ..\TraceRecorder\include\trcKernelPort.h
+..\obj\timers.o: ..\FreeRTOS\include\FreeRTOS.h
 ..\obj\timers.o: ..\FreeRTOS\include\projdefs.h
 ..\obj\timers.o: ..\FreeRTOS\include\portable.h
 ..\obj\timers.o: ..\FreeRTOS\include\deprecated_definitions.h
