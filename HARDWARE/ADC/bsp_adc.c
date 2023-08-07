@@ -1,6 +1,7 @@
 
 #include "usart.h"
 #include "adc/bsp_adc.h"
+#include "dso/bsp_dso.h"
 
 volatile uint16_t ADC_ConvertedValue[ADC_DataSize];
 
@@ -179,6 +180,7 @@ void ADC_Mode_Init(void)
 	DMA_Config(DMA2_Stream0);   //DMA配置
 	NVIC_Config();              //TIM2、DMA中断配置
 	TIM2_Init();                //定时器2初始化
+    SetADCSampleRate(_tgrade[0].SPS);
 }
 
 /************************************************

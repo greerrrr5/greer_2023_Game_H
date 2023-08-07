@@ -10,13 +10,11 @@
       <TargetName>STM32_OSC</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>5060750::V5.06 update 6 (build 750)::ARMCC</pCCUsed>
-      <uAC6>0</uAC6>
       <TargetOption>
         <TargetCommonOption>
           <Device>STM32F407ZGTx</Device>
           <Vendor>STMicroelectronics</Vendor>
-          <PackID>Keil.STM32F4xx_DFP.2.7.0</PackID>
+          <PackID>Keil.STM32F4xx_DFP.2.13.0</PackID>
           <PackURL>http://www.keil.com/pack</PackURL>
           <Cpu>IRAM(0x20000000,0x20000) IRAM2(0x10000000,0x10000) IROM(0x08000000,0x100000) CPUTYPE("Cortex-M4") FPU2 CLOCK(12000000) ELITTLE</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
@@ -86,8 +84,6 @@
             <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
-            <nStopA1X>0</nStopA1X>
-            <nStopA2X>0</nStopA2X>
           </AfterMake>
           <SelectedForBatchBuild>0</SelectedForBatchBuild>
           <SVCSIdString></SVCSIdString>
@@ -126,6 +122,47 @@
             <HexOffset>0</HexOffset>
             <Oh166RecLen>16</Oh166RecLen>
           </OPTHX>
+          <Simulator>
+            <UseSimulator>0</UseSimulator>
+            <LoadApplicationAtStartup>1</LoadApplicationAtStartup>
+            <RunToMain>1</RunToMain>
+            <RestoreBreakpoints>1</RestoreBreakpoints>
+            <RestoreWatchpoints>1</RestoreWatchpoints>
+            <RestoreMemoryDisplay>1</RestoreMemoryDisplay>
+            <RestoreFunctions>1</RestoreFunctions>
+            <RestoreToolbox>1</RestoreToolbox>
+            <LimitSpeedToRealTime>0</LimitSpeedToRealTime>
+            <RestoreSysVw>1</RestoreSysVw>
+          </Simulator>
+          <Target>
+            <UseTarget>1</UseTarget>
+            <LoadApplicationAtStartup>1</LoadApplicationAtStartup>
+            <RunToMain>1</RunToMain>
+            <RestoreBreakpoints>1</RestoreBreakpoints>
+            <RestoreWatchpoints>1</RestoreWatchpoints>
+            <RestoreMemoryDisplay>1</RestoreMemoryDisplay>
+            <RestoreFunctions>0</RestoreFunctions>
+            <RestoreToolbox>1</RestoreToolbox>
+            <RestoreTracepoints>1</RestoreTracepoints>
+            <RestoreSysVw>1</RestoreSysVw>
+          </Target>
+          <RunDebugAfterBuild>0</RunDebugAfterBuild>
+          <TargetSelection>11</TargetSelection>
+          <SimDlls>
+            <CpuDll></CpuDll>
+            <CpuDllArguments></CpuDllArguments>
+            <PeripheralDll></PeripheralDll>
+            <PeripheralDllArguments></PeripheralDllArguments>
+            <InitializationFile></InitializationFile>
+          </SimDlls>
+          <TargetDlls>
+            <CpuDll></CpuDll>
+            <CpuDllArguments></CpuDllArguments>
+            <PeripheralDll></PeripheralDll>
+            <PeripheralDllArguments></PeripheralDllArguments>
+            <InitializationFile></InitializationFile>
+            <Driver>STLink\ST-LINKIII-KEIL_SWO.dll</Driver>
+          </TargetDlls>
         </DebugOption>
         <Utilities>
           <Flash1>
@@ -190,7 +227,6 @@
             <useUlib>0</useUlib>
             <EndSel>0</EndSel>
             <uLtcg>0</uLtcg>
-            <nSecure>0</nSecure>
             <RoSelD>3</RoSelD>
             <RwSelD>4</RwSelD>
             <CodeSel>0</CodeSel>
@@ -324,20 +360,12 @@
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
             <uC99>1</uC99>
-            <uGnu>0</uGnu>
             <useXO>0</useXO>
-            <v6Lang>1</v6Lang>
-            <v6LangP>1</v6LangP>
-            <vShortEn>1</vShortEn>
-            <vShortWch>1</vShortWch>
-            <v6Lto>0</v6Lto>
-            <v6WtE>0</v6WtE>
-            <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
               <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER,ARM_MATH_CM4,__CC_ARM,ARM_MATH_M,DEBUG_INFO=02</Define>
               <Undefine></Undefine>
-              <IncludePath>..\FWLIB\inc;..\CORE;..\USER;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\HARDWARE;..\FreeRTOS\include;..\FreeRTOS\portable\RVDS\ARM_CM4F;..\DSP_LIB\Include;..\DSP_LIB;..\STemWin_Task;..\TraceRecorder\config;..\TraceRecorder\include;..\TraceRecorder\streamports\Jlink_RTT\include</IncludePath>
+              <IncludePath>..\FWLIB\inc;..\CORE;..\USER;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\HARDWARE;..\FreeRTOS\include;..\FreeRTOS\portable\RVDS\ARM_CM4F;..\DSP_LIB\Include;..\DSP_LIB;..\STemWin_Task;..\TraceRecorder\config;..\TraceRecorder\include;..\TraceRecorder\streamports\Jlink_RTT\include;..\GUI\lv_examples;..\GUI\lvgl;..\GUI\lvgl_driver;..\GUI;..\HARDWARE\ad9833;..\HARDWARE\LCD;..\HARDWARE\KEY</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -350,7 +378,6 @@
             <NoWarn>0</NoWarn>
             <uSurpInc>0</uSurpInc>
             <useXO>0</useXO>
-            <uClangAs>0</uClangAs>
             <VariousControls>
               <MiscControls></MiscControls>
               <Define></Define>
@@ -461,6 +488,16 @@
               <FileType>1</FileType>
               <FilePath>..\FWLIB\src\stm32f4xx_adc.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f4xx_fsmc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FWLIB\src\stm32f4xx_fsmc.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FWLIB\src\stm32f4xx_i2c.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -487,6 +524,11 @@
           <GroupName>HARDWARE</GroupName>
           <Files>
             <File>
+              <FileName>bsp_iic.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\IIC\bsp_iic.c</FilePath>
+            </File>
+            <File>
               <FileName>bsp_led.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\LED\bsp_led.c</FilePath>
@@ -502,6 +544,26 @@
               <FilePath>..\HARDWARE\ADC\bsp_adc.c</FilePath>
             </File>
             <File>
+              <FileName>bsp_dso.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\DSO\bsp_dso.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_sram.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\SRAM\bsp_sram.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_ctiic.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\TOUCH\bsp_ctiic.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_24cxx.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\24Cxx\bsp_24cxx.c</FilePath>
+            </File>
+            <File>
               <FileName>bsp_TiMbase.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\TimBase\bsp_TiMbase.c</FilePath>
@@ -510,6 +572,21 @@
               <FileName>bsp_log.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\HARDWARE\LOG\bsp_log.h</FilePath>
+            </File>
+            <File>
+              <FileName>ad9833.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\ad9833\ad9833.c</FilePath>
+            </File>
+            <File>
+              <FileName>lcd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\LCD\lcd.c</FilePath>
+            </File>
+            <File>
+              <FileName>key.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\KEY\key.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -584,16 +661,6 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>STemWin_Task</GroupName>
-          <Files>
-            <File>
-              <FileName>dso.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\STemWin_Task\dso.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
           <GroupName>TraceRecorder</GroupName>
           <Files>
             <File>
@@ -631,11 +698,5 @@
       </Groups>
     </Target>
   </Targets>
-
-  <RTE>
-    <apis/>
-    <components/>
-    <files/>
-  </RTE>
 
 </Project>

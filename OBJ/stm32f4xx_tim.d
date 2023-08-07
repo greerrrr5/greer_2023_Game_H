@@ -2,7 +2,7 @@
 ..\obj\stm32f4xx_tim.o: ..\FWLIB\inc\stm32f4xx_tim.h
 ..\obj\stm32f4xx_tim.o: ..\USER\stm32f4xx.h
 ..\obj\stm32f4xx_tim.o: ..\CORE\core_cm4.h
-..\obj\stm32f4xx_tim.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\stm32f4xx_tim.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\stm32f4xx_tim.o: ..\CORE\core_cmInstr.h
 ..\obj\stm32f4xx_tim.o: ..\CORE\core_cmFunc.h
 ..\obj\stm32f4xx_tim.o: ..\CORE\core_cm4_simd.h

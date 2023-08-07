@@ -3,7 +3,7 @@
 ..\obj\bsp_led.o: ..\SYSTEM\sys\sys.h
 ..\obj\bsp_led.o: ..\USER\stm32f4xx.h
 ..\obj\bsp_led.o: ..\CORE\core_cm4.h
-..\obj\bsp_led.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\bsp_led.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\bsp_led.o: ..\CORE\core_cmInstr.h
 ..\obj\bsp_led.o: ..\CORE\core_cmFunc.h
 ..\obj\bsp_led.o: ..\CORE\core_cm4_simd.h

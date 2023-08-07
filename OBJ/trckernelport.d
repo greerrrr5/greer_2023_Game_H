@@ -1,7 +1,7 @@
 ..\obj\trckernelport.o: ..\TraceRecorder\trcKernelPort.c
 ..\obj\trckernelport.o: ..\FreeRTOS\include\FreeRTOS.h
-..\obj\trckernelport.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stddef.h
-..\obj\trckernelport.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\trckernelport.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\trckernelport.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\trckernelport.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 ..\obj\trckernelport.o: ..\SYSTEM\sys\sys.h
 ..\obj\trckernelport.o: ..\USER\stm32f4xx.h
@@ -39,10 +39,10 @@
 ..\obj\trckernelport.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\trckernelport.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 ..\obj\trckernelport.o: ..\SYSTEM\usart\usart.h
-..\obj\trckernelport.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\math.h
-..\obj\trckernelport.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\trckernelport.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\trckernelport.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\trckernelport.o: D:\Keil5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\trckernelport.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\trckernelport.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\trckernelport.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\trckernelport.o: ..\TraceRecorder\include\trcRecorder.h
 ..\obj\trckernelport.o: ..\TraceRecorder\config\trcConfig.h
 ..\obj\trckernelport.o: ..\TraceRecorder\include\trcPortDefines.h

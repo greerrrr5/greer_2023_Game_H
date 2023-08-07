@@ -1,8 +1,8 @@
 ..\obj\list.o: ..\FreeRTOS\list.c
-..\obj\list.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\list.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\list.o: ..\FreeRTOS\include\FreeRTOS.h
-..\obj\list.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stddef.h
-..\obj\list.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\list.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\list.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\list.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 ..\obj\list.o: ..\SYSTEM\sys\sys.h
 ..\obj\list.o: ..\USER\stm32f4xx.h
@@ -40,9 +40,9 @@
 ..\obj\list.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\list.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 ..\obj\list.o: ..\SYSTEM\usart\usart.h
-..\obj\list.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\math.h
-..\obj\list.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\list.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\list.o: D:\Keil5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\list.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\list.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\list.o: ..\TraceRecorder\include\trcRecorder.h
 ..\obj\list.o: ..\TraceRecorder\config\trcConfig.h
 ..\obj\list.o: ..\TraceRecorder\include\trcPortDefines.h

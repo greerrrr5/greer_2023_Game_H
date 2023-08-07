@@ -98,7 +98,8 @@ void DAC1_Config(void)
 void DAC_Mode_Init(void)
 {
     TIM6_Config();
-    DAC1_Config(); 
+    DAC1_Config();
+    SetDACFreq(10000);  //10Khz   
 }
 
 /*******************************

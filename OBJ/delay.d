@@ -3,7 +3,7 @@
 ..\obj\delay.o: ..\SYSTEM\sys\sys.h
 ..\obj\delay.o: ..\USER\stm32f4xx.h
 ..\obj\delay.o: ..\CORE\core_cm4.h
-..\obj\delay.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\delay.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\delay.o: ..\CORE\core_cmInstr.h
 ..\obj\delay.o: ..\CORE\core_cmFunc.h
 ..\obj\delay.o: ..\CORE\core_cm4_simd.h
@@ -37,13 +37,13 @@
 ..\obj\delay.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\delay.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 ..\obj\delay.o: ..\FreeRTOS\include\FreeRTOS.h
-..\obj\delay.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\delay.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\delay.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 ..\obj\delay.o: ..\SYSTEM\usart\usart.h
-..\obj\delay.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\math.h
-..\obj\delay.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\delay.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\delay.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\delay.o: D:\Keil5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\delay.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\delay.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\delay.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\delay.o: ..\TraceRecorder\include\trcRecorder.h
 ..\obj\delay.o: ..\TraceRecorder\config\trcConfig.h
 ..\obj\delay.o: ..\TraceRecorder\include\trcPortDefines.h

@@ -1,13 +1,13 @@
 ..\obj\bsp_adc.o: ..\HARDWARE\ADC\bsp_adc.c
 ..\obj\bsp_adc.o: ..\SYSTEM\usart\usart.h
-..\obj\bsp_adc.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\math.h
-..\obj\bsp_adc.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\bsp_adc.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\bsp_adc.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\bsp_adc.o: D:\Keil5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\bsp_adc.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\bsp_adc.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\bsp_adc.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\bsp_adc.o: ..\SYSTEM\sys\sys.h
 ..\obj\bsp_adc.o: ..\USER\stm32f4xx.h
 ..\obj\bsp_adc.o: ..\CORE\core_cm4.h
-..\obj\bsp_adc.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\bsp_adc.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\bsp_adc.o: ..\CORE\core_cmInstr.h
 ..\obj\bsp_adc.o: ..\CORE\core_cmFunc.h
 ..\obj\bsp_adc.o: ..\CORE\core_cm4_simd.h
@@ -41,3 +41,7 @@
 ..\obj\bsp_adc.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\bsp_adc.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 ..\obj\bsp_adc.o: ..\HARDWARE\adc/bsp_adc.h
+..\obj\bsp_adc.o: ..\HARDWARE\dso/bsp_dso.h
+..\obj\bsp_adc.o: ..\DSP_LIB\Include\arm_math.h
+..\obj\bsp_adc.o: ..\DSP_LIB\Include\core_cm4.h
+..\obj\bsp_adc.o: D:\Keil5\ARM\ARMCC\Bin\..\include\string.h

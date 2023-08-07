@@ -2,7 +2,7 @@
 ..\obj\stm32f4xx_it.o: stm32f4xx_it.h
 ..\obj\stm32f4xx_it.o: stm32f4xx.h
 ..\obj\stm32f4xx_it.o: ..\CORE\core_cm4.h
-..\obj\stm32f4xx_it.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\stm32f4xx_it.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\stm32f4xx_it.o: ..\CORE\core_cmInstr.h
 ..\obj\stm32f4xx_it.o: ..\CORE\core_cmFunc.h
 ..\obj\stm32f4xx_it.o: ..\CORE\core_cm4_simd.h
@@ -36,14 +36,14 @@
 ..\obj\stm32f4xx_it.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\stm32f4xx_it.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 ..\obj\stm32f4xx_it.o: ..\FreeRTOS\include\FreeRTOS.h
-..\obj\stm32f4xx_it.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\stm32f4xx_it.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\stm32f4xx_it.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 ..\obj\stm32f4xx_it.o: ..\SYSTEM\sys\sys.h
 ..\obj\stm32f4xx_it.o: ..\SYSTEM\usart\usart.h
-..\obj\stm32f4xx_it.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\math.h
-..\obj\stm32f4xx_it.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\stm32f4xx_it.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\stm32f4xx_it.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\stm32f4xx_it.o: D:\Keil5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\stm32f4xx_it.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\stm32f4xx_it.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\stm32f4xx_it.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\stm32f4xx_it.o: ..\TraceRecorder\include\trcRecorder.h
 ..\obj\stm32f4xx_it.o: ..\TraceRecorder\config\trcConfig.h
 ..\obj\stm32f4xx_it.o: ..\TraceRecorder\include\trcPortDefines.h

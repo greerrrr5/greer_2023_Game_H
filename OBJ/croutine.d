@@ -1,7 +1,7 @@
 ..\obj\croutine.o: ..\FreeRTOS\croutine.c
 ..\obj\croutine.o: ..\FreeRTOS\include\FreeRTOS.h
-..\obj\croutine.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stddef.h
-..\obj\croutine.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\croutine.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\croutine.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\croutine.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 ..\obj\croutine.o: ..\SYSTEM\sys\sys.h
 ..\obj\croutine.o: ..\USER\stm32f4xx.h
@@ -39,10 +39,10 @@
 ..\obj\croutine.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\croutine.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 ..\obj\croutine.o: ..\SYSTEM\usart\usart.h
-..\obj\croutine.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\math.h
-..\obj\croutine.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\croutine.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\croutine.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\croutine.o: D:\Keil5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\croutine.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\croutine.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\croutine.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\croutine.o: ..\TraceRecorder\include\trcRecorder.h
 ..\obj\croutine.o: ..\TraceRecorder\config\trcConfig.h
 ..\obj\croutine.o: ..\TraceRecorder\include\trcPortDefines.h

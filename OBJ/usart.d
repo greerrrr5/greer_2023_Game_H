@@ -2,7 +2,7 @@
 ..\obj\usart.o: ..\SYSTEM\sys\sys.h
 ..\obj\usart.o: ..\USER\stm32f4xx.h
 ..\obj\usart.o: ..\CORE\core_cm4.h
-..\obj\usart.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\usart.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\usart.o: ..\CORE\core_cmInstr.h
 ..\obj\usart.o: ..\CORE\core_cmFunc.h
 ..\obj\usart.o: ..\CORE\core_cm4_simd.h
@@ -36,12 +36,12 @@
 ..\obj\usart.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\usart.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 ..\obj\usart.o: ..\SYSTEM\usart\usart.h
-..\obj\usart.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\math.h
-..\obj\usart.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\usart.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\usart.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\usart.o: D:\Keil5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\usart.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\usart.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\usart.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\usart.o: ..\FreeRTOS\include\FreeRTOS.h
-..\obj\usart.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\usart.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\usart.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 ..\obj\usart.o: ..\TraceRecorder\include\trcRecorder.h
 ..\obj\usart.o: ..\TraceRecorder\config\trcConfig.h

@@ -1,9 +1,9 @@
 ..\obj\tasks.o: ..\FreeRTOS\tasks.c
-..\obj\tasks.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdlib.h
-..\obj\tasks.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\tasks.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\tasks.o: D:\Keil5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\tasks.o: ..\FreeRTOS\include\FreeRTOS.h
-..\obj\tasks.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stddef.h
-..\obj\tasks.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\tasks.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\tasks.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\tasks.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 ..\obj\tasks.o: ..\SYSTEM\sys\sys.h
 ..\obj\tasks.o: ..\USER\stm32f4xx.h
@@ -41,9 +41,9 @@
 ..\obj\tasks.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\tasks.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 ..\obj\tasks.o: ..\SYSTEM\usart\usart.h
-..\obj\tasks.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\math.h
-..\obj\tasks.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\tasks.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\tasks.o: D:\Keil5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\tasks.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\tasks.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\tasks.o: ..\TraceRecorder\include\trcRecorder.h
 ..\obj\tasks.o: ..\TraceRecorder\config\trcConfig.h
 ..\obj\tasks.o: ..\TraceRecorder\include\trcPortDefines.h

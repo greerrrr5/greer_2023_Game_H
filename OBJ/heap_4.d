@@ -1,8 +1,8 @@
 ..\obj\heap_4.o: ..\FreeRTOS\portable\MemMang\heap_4.c
-..\obj\heap_4.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\heap_4.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\heap_4.o: ..\FreeRTOS\include\FreeRTOS.h
-..\obj\heap_4.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stddef.h
-..\obj\heap_4.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\heap_4.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\heap_4.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\heap_4.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 ..\obj\heap_4.o: ..\SYSTEM\sys\sys.h
 ..\obj\heap_4.o: ..\USER\stm32f4xx.h
@@ -40,9 +40,9 @@
 ..\obj\heap_4.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\heap_4.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 ..\obj\heap_4.o: ..\SYSTEM\usart\usart.h
-..\obj\heap_4.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\math.h
-..\obj\heap_4.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\heap_4.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\heap_4.o: D:\Keil5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\heap_4.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\heap_4.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\heap_4.o: ..\TraceRecorder\include\trcRecorder.h
 ..\obj\heap_4.o: ..\TraceRecorder\config\trcConfig.h
 ..\obj\heap_4.o: ..\TraceRecorder\include\trcPortDefines.h

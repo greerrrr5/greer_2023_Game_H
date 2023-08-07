@@ -1,8 +1,8 @@
 ..\obj\stream_buffer.o: ..\FreeRTOS\stream_buffer.c
-..\obj\stream_buffer.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdint.h
-..\obj\stream_buffer.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\stream_buffer.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\stream_buffer.o: D:\Keil5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\stream_buffer.o: ..\FreeRTOS\include\FreeRTOS.h
-..\obj\stream_buffer.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\stream_buffer.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\stream_buffer.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 ..\obj\stream_buffer.o: ..\SYSTEM\sys\sys.h
 ..\obj\stream_buffer.o: ..\USER\stm32f4xx.h
@@ -40,10 +40,10 @@
 ..\obj\stream_buffer.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\stream_buffer.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 ..\obj\stream_buffer.o: ..\SYSTEM\usart\usart.h
-..\obj\stream_buffer.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\math.h
-..\obj\stream_buffer.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\stream_buffer.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\stream_buffer.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\stream_buffer.o: D:\Keil5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\stream_buffer.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\stream_buffer.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\stream_buffer.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\stream_buffer.o: ..\TraceRecorder\include\trcRecorder.h
 ..\obj\stream_buffer.o: ..\TraceRecorder\config\trcConfig.h
 ..\obj\stream_buffer.o: ..\TraceRecorder\include\trcPortDefines.h

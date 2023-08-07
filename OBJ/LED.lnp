@@ -1,4 +1,4 @@
---cpu=Cortex-M4.fp
+--cpu Cortex-M4.fp
 "..\obj\main.o"
 "..\obj\stm32f4xx_it.o"
 "..\obj\startup_stm32f40_41xxx.o"
@@ -12,13 +12,23 @@
 "..\obj\stm32f4xx_dac.o"
 "..\obj\stm32f4xx_dma.o"
 "..\obj\stm32f4xx_adc.o"
+"..\obj\stm32f4xx_fsmc.o"
+"..\obj\stm32f4xx_i2c.o"
 "..\obj\sys.o"
 "..\obj\usart.o"
 "..\obj\delay.o"
+"..\obj\bsp_iic.o"
 "..\obj\bsp_led.o"
 "..\obj\bsp_dac.o"
 "..\obj\bsp_adc.o"
+"..\obj\bsp_dso.o"
+"..\obj\bsp_sram.o"
+"..\obj\bsp_ctiic.o"
+"..\obj\bsp_24cxx.o"
 "..\obj\bsp_timbase.o"
+"..\obj\ad9833.o"
+"..\obj\lcd.o"
+"..\obj\key.o"
 "..\obj\croutine.o"
 "..\obj\event_groups.o"
 "..\obj\list.o"
@@ -29,12 +39,11 @@
 "..\obj\port.o"
 "..\obj\heap_4.o"
 "..\DSP_LIB\arm_cortexM4lf_math.lib"
-"..\obj\dso.o"
 "..\obj\trckernelport.o"
 "..\obj\trcstreamingrecorder.o"
 "..\obj\segger_rtt.o"
 "..\obj\trcstreamingport.o"
 --strict --scatter "..\OBJ\LED.sct"
---summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\Listings\LED.map" -o ..\OBJ\LED.axf

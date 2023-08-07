@@ -31,6 +31,7 @@
 #include "stm32f4xx_it.h"
 #include "FreeRTOS.h"					
 #include "task.h" 
+//#include "lvgl.h"
 #include "TimBase/bsp_TiMbase.h"
 
 /** @addtogroup Template_Project
@@ -165,6 +166,7 @@ void TIM5_IRQHandler(void)
 	if(TIM_GetITStatus(TIM5,TIM_IT_Update)==SET) //溢出中断
 	{
         CPU_RunTime++;
+        //lv_tick_inc(1); //lvgl的1ms心跳
 	}
 	TIM_ClearITPendingBit(TIM5,TIM_IT_Update);  //清除中断标志位
 }

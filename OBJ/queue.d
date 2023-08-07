@@ -1,9 +1,9 @@
 ..\obj\queue.o: ..\FreeRTOS\queue.c
-..\obj\queue.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdlib.h
-..\obj\queue.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\queue.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\queue.o: D:\Keil5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\queue.o: ..\FreeRTOS\include\FreeRTOS.h
-..\obj\queue.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stddef.h
-..\obj\queue.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\queue.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\queue.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\queue.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 ..\obj\queue.o: ..\SYSTEM\sys\sys.h
 ..\obj\queue.o: ..\USER\stm32f4xx.h
@@ -41,9 +41,9 @@
 ..\obj\queue.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\queue.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 ..\obj\queue.o: ..\SYSTEM\usart\usart.h
-..\obj\queue.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\math.h
-..\obj\queue.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\queue.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\queue.o: D:\Keil5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\queue.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\queue.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\queue.o: ..\TraceRecorder\include\trcRecorder.h
 ..\obj\queue.o: ..\TraceRecorder\config\trcConfig.h
 ..\obj\queue.o: ..\TraceRecorder\include\trcPortDefines.h

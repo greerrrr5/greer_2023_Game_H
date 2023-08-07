@@ -1,12 +1,12 @@
 ..\obj\main.o: main.c
-..\obj\main.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\math.h
-..\obj\main.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\main.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\main.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\main.o: D:\Keil5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\main.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\main.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\main.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\main.o: ..\SYSTEM\sys\sys.h
 ..\obj\main.o: ..\USER\stm32f4xx.h
 ..\obj\main.o: ..\CORE\core_cm4.h
-..\obj\main.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\main.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\main.o: ..\CORE\core_cmInstr.h
 ..\obj\main.o: ..\CORE\core_cmFunc.h
 ..\obj\main.o: ..\CORE\core_cm4_simd.h
@@ -39,14 +39,10 @@
 ..\obj\main.o: ..\FWLIB\inc\stm32f4xx_dac.h
 ..\obj\main.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\main.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
-..\obj\main.o: ..\STemWin_Task\dso.h
-..\obj\main.o: ..\DSP_LIB\Include\arm_math.h
-..\obj\main.o: ..\DSP_LIB\Include\core_cm4.h
-..\obj\main.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\main.o: ..\SYSTEM\delay\delay.h
 ..\obj\main.o: ..\SYSTEM\usart\usart.h
 ..\obj\main.o: ..\FreeRTOS\include\FreeRTOS.h
-..\obj\main.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\main.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\main.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 ..\obj\main.o: ..\TraceRecorder\include\trcRecorder.h
 ..\obj\main.o: ..\TraceRecorder\config\trcConfig.h
@@ -67,8 +63,16 @@
 ..\obj\main.o: ..\FreeRTOS\include\list.h
 ..\obj\main.o: ..\FreeRTOS\include\semphr.h
 ..\obj\main.o: ..\FreeRTOS\include\queue.h
+..\obj\main.o: D:\Keil5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\main.o: ..\DSP_LIB\Include\arm_math.h
+..\obj\main.o: ..\DSP_LIB\Include\core_cm4.h
+..\obj\main.o: ..\HARDWARE\dso/bsp_dso.h
 ..\obj\main.o: ..\HARDWARE\led/bsp_led.h
 ..\obj\main.o: ..\HARDWARE\dac/bsp_dac.h
 ..\obj\main.o: ..\HARDWARE\adc/bsp_adc.h
 ..\obj\main.o: ..\HARDWARE\log/bsp_log.h
+..\obj\main.o: ..\HARDWARE\sram/bsp_sram.h
+..\obj\main.o: ..\HARDWARE\LCD\lcd.h
+..\obj\main.o: ..\HARDWARE\ad9833\ad9833.h
+..\obj\main.o: ..\HARDWARE\KEY\key.h
 ..\obj\main.o: ..\HARDWARE\TimBase/bsp_TiMbase.h

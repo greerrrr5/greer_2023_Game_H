@@ -1,7 +1,7 @@
 ..\obj\port.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\port.c
 ..\obj\port.o: ..\FreeRTOS\include\FreeRTOS.h
-..\obj\port.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stddef.h
-..\obj\port.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\port.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\port.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\port.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 ..\obj\port.o: ..\SYSTEM\sys\sys.h
 ..\obj\port.o: ..\USER\stm32f4xx.h
@@ -39,10 +39,10 @@
 ..\obj\port.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\port.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 ..\obj\port.o: ..\SYSTEM\usart\usart.h
-..\obj\port.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\math.h
-..\obj\port.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\port.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\port.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\port.o: D:\Keil5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\port.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\port.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\port.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\port.o: ..\TraceRecorder\include\trcRecorder.h
 ..\obj\port.o: ..\TraceRecorder\config\trcConfig.h
 ..\obj\port.o: ..\TraceRecorder\include\trcPortDefines.h

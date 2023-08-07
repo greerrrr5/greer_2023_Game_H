@@ -1,8 +1,8 @@
 ..\obj\trcstreamingport.o: ..\TraceRecorder\streamports\Jlink_RTT\trcStreamingPort.c
 ..\obj\trcstreamingport.o: ..\TraceRecorder\include\trcRecorder.h
-..\obj\trcstreamingport.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdint.h
-..\obj\trcstreamingport.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stddef.h
-..\obj\trcstreamingport.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\trcstreamingport.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\trcstreamingport.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\trcstreamingport.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdarg.h
 ..\obj\trcstreamingport.o: ..\TraceRecorder\config\trcConfig.h
 ..\obj\trcstreamingport.o: ..\TraceRecorder\include\trcPortDefines.h
 ..\obj\trcstreamingport.o: ..\USER\stm32f4xx.h
@@ -49,9 +49,9 @@
 ..\obj\trcstreamingport.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 ..\obj\trcstreamingport.o: ..\SYSTEM\sys\sys.h
 ..\obj\trcstreamingport.o: ..\SYSTEM\usart\usart.h
-..\obj\trcstreamingport.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\math.h
-..\obj\trcstreamingport.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\trcstreamingport.o: D:\Keil uVision5\Keil uVision5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\trcstreamingport.o: D:\Keil5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\trcstreamingport.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\trcstreamingport.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\trcstreamingport.o: ..\TraceRecorder\include\trcRecorder.h
 ..\obj\trcstreamingport.o: ..\FreeRTOS\include\projdefs.h
 ..\obj\trcstreamingport.o: ..\FreeRTOS\include\portable.h
