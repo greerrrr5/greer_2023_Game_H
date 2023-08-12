@@ -1,5 +1,5 @@
 # greer_2023_Game_H
-TIM+ADC+DMA+FFT+AD9833+LCD
+TIM+ADC+DMA+FFT+AD9833+LCD<br>
 2023“TI杯”全国大学生电子设计大赛 H题 信号分离装置 上海赛区二等奖
 ## 1.软件设计总架构图<br>
 <center>
