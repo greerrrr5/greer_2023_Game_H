@@ -13,5 +13,5 @@ TIM+ADC+DMA+FFT+AD9833+LCD
 ![1d6df332fededf1dd51a4ecfdb4c321](https://github.com/greerrrr5/greer_2023_Game_H/assets/101702876/45958051-5859-45e7-a560-00ad611a5db2)<br>
 </center>
 
---
+----
 Copyright © 2023 by Greer Liu, Lingyi Zhu, Yaping Mei.
