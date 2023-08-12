@@ -6,6 +6,7 @@ TIM+ADC+DMA+FFT+AD9833+LCD
 
 ![1d6df332fededf1dd51a4ecfdb4c321](https://github.com/greerrrr5/greer_2023_Game_H/assets/101702876/62f24398-3918-4897-9fd6-37bf180f1a36)<br>
 </center>
+
 ## 2.算法具体思想<br>
 <center>
 
