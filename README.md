@@ -17,7 +17,8 @@ TIM+ADC+DMA+FFT+AD9833+LCD<br>
 ## 3.实物图<br>
 <center>
 
-<br>
+<img width="3456" height="4608" alt="电赛作品图" src="https://github.com/user-attachments/assets/d42576f3-641a-484d-a9ec-82541d81e3e8" /><br>
+
 </center>
 
 ----
